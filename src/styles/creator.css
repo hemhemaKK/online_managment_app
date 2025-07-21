@@ -1,0 +1,40 @@
+/* creator.css */
+
+.sidebar {
+  width: 16rem;
+  height: 46rem;
+  background-color: #01063c; /* Tailwind gray-300 */
+  padding: 1.5rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  margin-top: 90px;
+}
+
+.sidebar-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 2.5rem;
+  font-family: serif;
+  font-weight: 600;
+}
+
+.sidebar-button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  background-color: transparent;
+  transition: background-color 0.3s;
+  border: none;
+  cursor: pointer;
+  background-color: #aab0f9;
+
+}
+
+.sidebar-button:hover {
+  background-color: #ffffff; /* Tailwind gray-400 */
+}
+
+
